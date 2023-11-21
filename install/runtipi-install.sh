@@ -19,7 +19,7 @@ $STD apt-get install -y sudo
 $STD apt-get install -y mc
 msg_ok "Installed Dependencies"
 
-msg_info "Installing RunTipi (Patience)"
+msg_info "Installing Runtipi (Patience)"
 DOCKER_CONFIG_PATH='/etc/docker/daemon.json'
 mkdir -p $(dirname $DOCKER_CONFIG_PATH)
 if [ "$ST" == "yes" ]; then
